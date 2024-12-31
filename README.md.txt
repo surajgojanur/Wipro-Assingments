@@ -1,11 +1,12 @@
 Greetings from RPS Team!!!
 
-INSERT INTO employe (emp_no, emp_name, dep, salary, mobile_no) VALUES
-(1, 'Amit Sharma', 'HR', 45000.00, 9876543210),
-(2, 'Priya Singh', 'IT', 62000.50, 8765432109),
-(3, 'Ravi Kumar', 'Finance', 71000.75, 7654321098),
-(4, 'Neha Patil', 'Marketing', 53000.25, 6543210987),
-(5, 'Anil Deshmukh', 'Sales', 49000.10, 5432109876);
+INSERT INTO bankemp (emp_name, bank, acct_no) VALUES
+('Amit Sharma', 'State Bank of India', 10101),
+('Priya Singh', 'HDFC Bank', 20202),
+('Rahul Verma', 'ICICI Bank', 30303),
+('Neha Gupta', 'Axis Bank', 40404),
+('Ramesh Kumar', 'Punjab National Bank', 50505);
+
 
  
 
