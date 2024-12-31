@@ -1,11 +1,16 @@
 Greetings from RPS Team!!!
 
-INSERT INTO employe (emp_no, emp_name, dep, salary, moblie_no) VALUES
-(1, 'Amit Sharma', 'Finance', 50000.50, 9876543210),
-(2, 'Priya Singh', 'HR', 60000.75, 8765432109),
-(3, 'Rahul Verma', 'IT', 75000.25, 9123456780),
-(4, 'Neha Gupta', 'Marketing', 55000.00, 9988776655),
-(5, 'Ramesh Kumar', 'Operations', 47000.80, 8877665544);
+SELECT
+    e.emp_name,
+    b.bank_name,
+    b.acct_no,
+    e.salary
+FROM
+    employe e
+INNER JOIN
+    bankemp b
+ON
+    e.emp_name = b.emp_name;
 
 
  
