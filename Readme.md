@@ -1,11 +1,12 @@
 Greetings from RPS Team!!!
 
-INSERT INTO employe (emp_no, emp_name, dep, salary, mobile_no) VALUES
-(1, 'Amit Sharma', 'HR', 45000.00, 9876543210),
-(2, 'Priya Singh', 'IT', 62000.50, 8765432109),
-(3, 'Ravi Kumar', 'Finance', 71000.75, 7654321098),
-(4, 'Neha Patil', 'Marketing', 53000.25, 6543210987),
-(5, 'Anil Deshmukh', 'Sales', 49000.10, 5432109876);
+INSERT INTO employe (emp_no, emp_name, dep, salary, moblie_no) VALUES
+(1, 'Amit Sharma', 'Finance', 50000.50, 9876543210),
+(2, 'Priya Singh', 'HR', 60000.75, 8765432109),
+(3, 'Rahul Verma', 'IT', 75000.25, 9123456780),
+(4, 'Neha Gupta', 'Marketing', 55000.00, 9988776655),
+(5, 'Ramesh Kumar', 'Operations', 47000.80, 8877665544);
+
 
  
 
