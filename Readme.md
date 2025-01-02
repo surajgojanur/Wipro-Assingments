@@ -1,16 +1,12 @@
 Greetings from RPS Team!!!
 
-SELECT
-    e.emp_name,
-    b.bank_name,
-    b.acct_no,
-    e.salary
-FROM
-    employe e
-INNER JOIN
-    bankemp b
-ON
-    e.emp_name = b.emp_name;
+SELECT * FROM employee_details.bank_details;
+
+alter table bank_details add balance decimal(10,2);
+
+desc bank_details;
+
+update bank details set balance 6000 where acc_no=884345;
 
 
  
